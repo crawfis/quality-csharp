@@ -20,7 +20,7 @@ Write clean, simple, professional C# code:
 
 ## Project Setup
 
-- This is a C# project using .NET 8 and Visual Studio
+- This is a C# project using .NET 8 or .NET 10 and Visual Studio
 - Run code with: `dotnet run` (from src/QualityProject)
 - Install packages with: `dotnet add package PackageName`
 - Run tests with: `dotnet test`
