@@ -16,3 +16,11 @@ indent_size = 2
 
 [*.cs]
 indent_size = 4
+
+# Naming conventions
+dotnet_naming_rule.public_members_must_be_capitalized.symbols = public_symbols
+dotnet_naming_rule.public_members_must_be_capitalized.style = pascal_case
+dotnet_naming_rule.public_members_must_be_capitalized.severity = suggestion
+dotnet_naming_symbols.public_symbols.applicable_kinds = property,method,field,event,delegate
+dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
+dotnet_naming_style.pascal_case.capitalization = pascal_case
